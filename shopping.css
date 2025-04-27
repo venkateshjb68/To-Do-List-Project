@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background: url('https://m.media-amazon.com/images/I/71tgB8xocBL.jpg')no-repeat center center;
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 1s ease;
+    margin: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.container:hover{  
+    box-shadow: 0 0 50px rgba(70, 20, 50, 0.6) ,  0 0 100px rgba(160, 53, 117, 0.6);
+    transform: translate3d(-100px);
+}
+input{
+    background: none;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:red;   
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+}
+button{
+    font-size: 20px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    background-color: rgb(32, 228, 48);
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(79, 11, 238);
+}
+.Listtext{
+    color: rgb(0, 0, 0);
+    font-size:xx-large;
+    font-weight: 800;
+    padding: 3px;
+    cursor:pointer;
+}
+.editButton {
+    background-color: #f306d3;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.editButton:hover {
+    background-color: #45a049;
+}.removeButton{
+    background-color: #2a06f3;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.removeButton:hover {
+    background-color: #ff3c00;
+}
