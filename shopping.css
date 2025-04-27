@@ -1,7 +1,7 @@
-body{
+/* body{
     width: 100%;
     height: 100%;
-}
+} */
 .container{
     background: url('https://m.media-amazon.com/images/I/71tgB8xocBL.jpg')no-repeat center center;
     background-size:cover;
@@ -12,23 +12,17 @@ body{
     flex-direction: column;
     padding: 20px;
     border-radius: 5px;
-    transition: transform 1s ease;
-    margin: 200px;
-    margin-left: 400px;
-    margin-right: 400px;
-    
-}
-.container:hover{  
-    box-shadow: 0 0 50px rgba(70, 20, 50, 0.6) ,  0 0 100px rgba(160, 53, 117, 0.6);
-    transform: translate3d(-100px);
+    transition: transform 1s ease;    
 }
 input{
-    background: none;
+    background-color: bisque;
     border: 2px solid black;
     margin-bottom: 20px;
     border-radius: 10px;
     font-size: 20px;
     color:red;   
+    width: 100%;
+    height: 40px;
 }
 input::placeholder{
     color: rgb(0, 0, 0);
@@ -41,10 +35,11 @@ button{
     border-radius: 20px;
     background-color: rgb(32, 228, 48);
     margin-top: 20px;
+    width: 100%;
+    height: 40px;
 }
 h1{
     text-align: center;
-    color: rgb(79, 11, 238);
 }
 .Listtext{
     color: rgb(0, 0, 0);
@@ -52,6 +47,7 @@ h1{
     font-weight: 800;
     padding: 3px;
     cursor:pointer;
+    background-color: rgb(176, 184, 190);
 }
 .editButton {
     background-color: #f306d3;
